@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
     {
       id: 4,
       title: "메이헴의 유산",
-      description: "연 매출 5천만 원을 달성한 수집형 RPG 게임입니다. 문체부 주관 이달의 우수게임으로 선정되었으며, 러시아 퍼블리싱 계약을 체결했습니다.",
+      description: "연 매출 5천만 원을 달성한 수집형 RPG 게임입니다. 문체부 주관 이달의 우수게임으로 선정되었으며, 일본 퍼블리싱 계약을 체결했습니다.",
       technologies: ["HTML5", "JavaScript", "PHP", "MySQL"],
       period: "2017-2020",
       company: "ZIP-LAB Inc.",
