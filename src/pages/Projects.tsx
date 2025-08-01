@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
       technologies: ["HTML5", "JavaScript", "PHP", "MySQL"],
       period: "2017-2020",
       company: "ZIP-LAB Inc.",
-      achievements: ["연 매출 5천만 원", "이달의 우수게임 선정", "러시아 퍼블리싱"],
+      achievements: ["연 매출 5천만 원", "이달의 우수게임 선정", "일본 퍼블리싱"],
       image: "/images/HeritageOfMayhem.png",
       liveUrl: "https://drive.google.com/file/d/1RVbR0PQRKwbs963ERbBdpSn1grTMa8Bi/view"
     },
