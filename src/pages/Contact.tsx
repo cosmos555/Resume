@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
         <div className="container-custom">
           <div className="max-w-2xl mx-auto text-center">
             <div className="card p-12 lg:p-16">
-              <h2 className="text-3xl lg:text-4xl font-bold text-primary-600 mb-12">
+              <h2 className="text-3xl lg:text-4xl font-bold text-green-600 mb-12">
                 연락처 정보
               </h2>
               
@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">이메일</h3>
                   <a 
                     href="mailto:dhguskdd@gmail.com"
-                    className="text-lg text-primary-600 hover:text-primary-700 transition-colors"
+                    className="text-lg text-green-600 hover:text-green-700 transition-colors"
                   >
                     dhguskdd@gmail.com
                   </a>
@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
                     href="https://github.com/cosmos555" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-6 py-3 bg-gray-100 text-gray-700 border border-gray-300 rounded-lg hover:bg-primary-600 hover:text-white hover:border-primary-600 transition-all duration-300"
+                    className="inline-flex items-center px-6 py-3 bg-gray-100 text-gray-700 border border-gray-300 rounded-lg hover:bg-green-600 hover:text-white hover:border-green-600 transition-all duration-300"
                   >
                     GitHub
                   </a>
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
                     href="https://www.linkedin.com/in/bomin-kwon-b84419162/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-6 py-3 bg-gray-100 text-gray-700 border border-gray-300 rounded-lg hover:bg-primary-600 hover:text-white hover:border-primary-600 transition-all duration-300"
+                    className="inline-flex items-center px-6 py-3 bg-gray-100 text-gray-700 border border-gray-300 rounded-lg hover:bg-green-600 hover:text-white hover:border-green-600 transition-all duration-300"
                   >
                     LinkedIn
                   </a>

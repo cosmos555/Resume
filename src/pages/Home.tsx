@@ -20,7 +20,7 @@ const Home: React.FC = () => {
             <div className="text-center lg:text-left">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 안녕하세요! <br />
-                <span className="text-primary-600">권보민</span>입니다
+                <span className="text-green-600">권보민</span>입니다
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               창업부터 서비스 종료까지, 전 과정을 겪은 실전형 게임 개발자

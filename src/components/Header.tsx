@@ -28,7 +28,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <button 
             onClick={() => scrollToSection('home')}
-            className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors"
+            className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors"
           >
             BOMIN's Resume
           </button>
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
               <li>
                 <button 
                   onClick={() => scrollToSection('home')}
-                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors w-full text-left"
+                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-green-600 transition-colors w-full text-left"
                 >
                   홈
                 </button>
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
               <li>
                 <button 
                   onClick={() => scrollToSection('about')}
-                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors w-full text-left"
+                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-green-600 transition-colors w-full text-left"
                 >
                   소개
                 </button>
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
               <li>
                 <button 
                   onClick={() => scrollToSection('projects')}
-                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors w-full text-left"
+                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-green-600 transition-colors w-full text-left"
                 >
                   프로젝트
                 </button>
@@ -62,7 +62,7 @@ const Header: React.FC = () => {
               <li>
                 <button 
                   onClick={() => scrollToSection('history')}
-                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors w-full text-left"
+                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-green-600 transition-colors w-full text-left"
                 >
                   이력
                 </button>
@@ -70,7 +70,7 @@ const Header: React.FC = () => {
               <li>
                 <button 
                   onClick={() => scrollToSection('contact')}
-                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors w-full text-left"
+                  className="block py-2 md:py-0 text-base font-medium text-gray-700 hover:text-green-600 transition-colors w-full text-left"
                 >
                   연락처
                 </button>

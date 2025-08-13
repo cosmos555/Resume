@@ -80,6 +80,28 @@ const Projects: React.FC = () => {
       achievements: ["정부 R&D 지원사업"],
       image: "/images/webgamejs.png",
       liveUrl: "http://webgamejs.zip-lab.co.kr"
+    },
+    {
+      id: 7,
+      title: "권서방 - AI사주풀이 서비스",
+      description: "AI 사주풀이 서비스로, 사용자가 입력한 생년월일을 기반으로 사주를 분석하고 추천 서비스를 제공합니다.",
+      technologies: ["React", "TypeScript", "PHP", "AI"],
+      period: "2025.08-현재",
+      company: "개인 프로젝트",
+      achievements: ["기획","개발"],
+      image: "/images/kwon.png",
+      liveUrl: "https://saju.im"
+    },
+    {
+      id: 8,
+      title: "Crush The Block",
+      description: "블럭을 부수며 앞으로 나아가는 게임입니다.",
+      technologies: ["HTML5", "JavaScript"],
+      period: "2018.01-2018.12",
+      company: "ZIP-LAB Inc.",
+      achievements: ["PD","기획"],
+      image: "/images/crush.png",
+      liveUrl: "https://cosmos555.github.io/game/flappy/"
     }
   ]
 
@@ -112,7 +134,7 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-4">
-                    <h3 className="text-2xl font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
+                    <h3 className="text-2xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">
                       {project.title}
                     </h3>
                     <span className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">
@@ -127,7 +149,7 @@ const Projects: React.FC = () => {
                     <ul className="space-y-1">
                       {project.achievements.map((achievement, index) => (
                         <li key={index} className="text-sm text-gray-600 flex items-center">
-                          <span className="text-primary-600 mr-2">•</span>
+                          <span className="text-green-600 mr-2">•</span>
                           {achievement}
                         </li>
                       ))}
@@ -137,7 +159,7 @@ const Projects: React.FC = () => {
                     {project.technologies.map((tech, index) => (
                       <span 
                         key={index} 
-                        className="px-3 py-1 bg-primary-100 text-primary-700 text-sm font-medium rounded-full"
+                        className="px-3 py-1 bg-green-100 text-green-700 text-sm font-medium rounded-full"
                       >
                         {tech}
                       </span>
@@ -150,7 +172,7 @@ const Projects: React.FC = () => {
                         href={project.liveUrl} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center px-4 py-2 border border-primary-600 text-primary-600 text-sm font-medium rounded-lg hover:bg-primary-600 hover:text-white transition-colors"
+                        className="inline-flex items-center justify-center px-4 py-2 border border-green-600 text-green-600 text-sm font-medium rounded-lg hover:bg-green-600 hover:text-white transition-colors"
                       >
                         자세히 보기
                       </a>
@@ -173,7 +195,7 @@ const Projects: React.FC = () => {
             DROP POP, 히로익 택틱스, 이노센트 워리어, HI5GAME 등 다양한 장르의 게임을 개발했습니다.
           </p>
           <a 
-            href="https://github.com/cosmos555" 
+            href="https://github.com/cosmos555#-%EC%A3%BC%EC%9A%94-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn btn-primary"
@@ -191,64 +213,64 @@ const Projects: React.FC = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="card p-8 hover:-translate-y-2">
-              <h3 className="text-xl font-semibold text-primary-600 mb-6">게임 개발</h3>
+              <h3 className="text-xl font-semibold text-green-600 mb-6">게임 개발</h3>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   Unity & C#
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   HTML5 & JavaScript
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   Node.js & WebSocket
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   PHP & MySQL
                 </li>
               </ul>
             </div>
             <div className="card p-8 hover:-translate-y-2">
-              <h3 className="text-xl font-semibold text-primary-600 mb-6">게임 기획</h3>
+              <h3 className="text-xl font-semibold text-green-600 mb-6">게임 기획</h3>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   시스템 설계
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   밸런싱
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   프로젝트 관리
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   PD
                 </li>
               </ul>
             </div>
             <div className="card p-8 hover:-translate-y-2">
-              <h3 className="text-xl font-semibold text-primary-600 mb-6">사업 운영</h3>
+              <h3 className="text-xl font-semibold text-green-600 mb-6">사업 운영</h3>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   팀 빌딩
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   글로벌 퍼블리싱
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   서비스 운영
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="text-primary-600 mr-3">▹</span>
+                  <span className="text-green-600 mr-3">▹</span>
                   Git & PlayFab
                 </li>
               </ul>

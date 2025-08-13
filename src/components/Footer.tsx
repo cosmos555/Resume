@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                 href="https://github.com/cosmos555" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block px-4 py-2 text-sm font-medium text-gray-300 border border-gray-600 rounded-lg hover:bg-primary-600 hover:text-white hover:border-primary-600 transition-all duration-300"
+                className="inline-block px-4 py-2 text-sm font-medium text-gray-300 border border-gray-600 rounded-lg hover:bg-green-600 hover:text-white hover:border-green-600 transition-all duration-300"
               >
                 GitHub
               </a>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
                 href="https://www.linkedin.com/in/bomin-kwon-b84419162/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block px-4 py-2 text-sm font-medium text-gray-300 border border-gray-600 rounded-lg hover:bg-primary-600 hover:text-white hover:border-primary-600 transition-all duration-300"
+                className="inline-block px-4 py-2 text-sm font-medium text-gray-300 border border-gray-600 rounded-lg hover:bg-green-600 hover:text-white hover:border-green-600 transition-all duration-300"
               >
                 LinkedIn
               </a>

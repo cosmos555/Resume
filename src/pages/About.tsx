@@ -9,28 +9,28 @@ const About: React.FC = () => {
         <div className="container-custom">
           {/* Introduction */}
           <div className="mb-20">
-            <h2 className="text-2xl lg:text-2xl font-bold text-primary-600 mb-8">
+            <h2 className="text-2xl lg:text-2xl font-bold text-green-600 mb-8">
             저는 프로그래머이자 기획자, 그리고 사업가의 시각을 함께 갖춘 게임 개발자입니다.
             </h2>
             <div className="prose prose-lg max-w-none">
               {/* Key Achievements within Introduction */}
               <div className="bg-gray-50 p-8 rounded-lg mb-6">
-                <h3 className="text-2xl font-bold text-primary-600 mb-6 text-center">주요 성과</h3>
+                <h3 className="text-2xl font-bold text-green-600 mb-6 text-center">주요 성과</h3>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary-600 mb-2">8억+</div>
+                    <div className="text-3xl font-bold text-green-600 mb-2">8억+</div>
                     <div className="text-gray-600">펀딩</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary-600 mb-2">10억+</div>
+                    <div className="text-3xl font-bold text-green-600 mb-2">10억+</div>
                     <div className="text-gray-600">정부 R&D 펀딩</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary-600 mb-2">3억</div>
+                    <div className="text-3xl font-bold text-green-600 mb-2">3억</div>
                     <div className="text-gray-600">연 매출</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary-600 mb-2">11+</div>
+                    <div className="text-3xl font-bold text-green-600 mb-2">11+</div>
                     <div className="text-gray-600">게임 프로젝트</div>
                   </div>
                 </div>
